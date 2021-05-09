@@ -1,0 +1,193 @@
+body
+{
+    margin:0;
+}
+
+
+.page
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left
+{
+    background-image: linear-gradient(0.35turn, #31493C,#7A9E7E);
+    height:100%;
+    width:30%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #31493C;
+    height:100%;
+    margin-left:35%;
+}
+
+.navigationBtn
+{
+    font-family: 'Bebas Neue', cursive;
+    color:#E8F1F2;
+    font-size:1.5em;
+    text-shadow: 2px 2px #31493C;
+}
+
+.navigationBtn:hover
+{
+    color:#001A23;
+    cursor: pointer;
+}
+
+.info
+{
+    border:2px solid #31493C;
+    font-family: 'Montserrat', sans-serif;
+    padding:5%;
+    font-size: 1em;
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    border-radius: 2vw;
+    box-shadow: 1px 2px 2px #001A23;
+}
+
+.infotext
+{
+    display:flex;
+    flex-direction: row;
+}
+
+.pp1
+{
+    font-weight: 700; 
+    width:30%;
+}
+
+.pp2
+{
+    width:65%; 
+    color:#E8F1F2;
+}
+
+.section
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.sectionTop
+{
+    border-bottom: 3px solid #001A23;
+    font-size:3vw;
+    width:90%;
+}
+
+.sectionDown1
+{
+    padding: 5%;
+    font-size: 1.5vw;
+    letter-spacing:0.3vh;
+}
+
+.myBtn
+{
+    font-family:'Bebas Neue', cursive;
+    font-size: 100%;
+    border: 3px solid #31493C;
+    border-radius: 20%;
+    width:110%;
+    height:20%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myBtn:hover
+{
+    cursor: pointer;
+    background-color: #31493C;
+    color:#E8F1F2;
+}
+
+th, td
+{
+    padding-right:5%;
+    letter-spacing:0.3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.years
+{
+    display:flex;
+    flex-direction: row;
+    width: 10vw;
+    justify-content: space-around;
+}
+
+.circle
+{
+    height:1.5vw;
+    width:1.5vw;
+    background-color: #31493C;
+    border-radius: 50%;
+}
+
+.adittional
+{
+    font-family: 'Bebas Neue', cursive;
+    color:#31493C;
+    border-right: 3px solid #31493C;
+    font-size: 70%;
+    height:20%;
+}
+
+.material-icons
+{
+    color: #E8F1F2;
+    font-size: 130%;
+}
+
+.material-icons:hover
+{
+    font-size: 135%;
+    cursor: pointer;
+}
+
+.bi
+{
+    color:#E8F1F2;
+    font-size: 130%;
+}
+
+.bi:hover
+{
+    font-size: 135%;
+    cursor: pointer;
+}
+
+#contacts
+{
+    height:30%;
+    width:5%;
+    top:40%;
+    left:99.6%;
+    position:fixed;
+    background-color: #001A23;
+    box-shadow: 7px 3px 7px black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    text-align: center;
+}
+
